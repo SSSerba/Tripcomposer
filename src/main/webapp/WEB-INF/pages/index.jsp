@@ -2,9 +2,11 @@
 
 <html>
 <body>
-Update data base tables
+<!--Update data base tables-->
+<!--jsp:include page="/WEB-INF/pages/update.jsp" /-->
+Getter
+<jsp:include page="/WEB-INF/pages/getter.jsp" />
 
-<jsp:include page="/WEB-INF/pages/update.jsp" />
 </body>
 </html>
 

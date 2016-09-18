@@ -27,6 +27,13 @@ public class TripController {
 		}
 		return "redirect:/";
 	}
+	@RequestMapping(value = "/get", method = RequestMethod.GET)
+	public String getFromBD() {
+		for(Country country : getCountries()){
+		countryService.saveOrUpdate(country);
+		}
+		return "redirect:/";
+	}
 	
 	private List<Country> getCountries(){
 		Processing process = new Processing();

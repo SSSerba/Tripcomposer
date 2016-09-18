@@ -54,5 +54,5 @@ public class Processing {
 		JSONArray countries= rest.getJsonCountries();
 		return getCountriesFromJsonArray(countries);
 	}
-	
+
 }
