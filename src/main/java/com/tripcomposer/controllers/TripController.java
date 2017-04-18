@@ -22,16 +22,16 @@ public class TripController {
 
 	@RequestMapping(value = "/update", method = RequestMethod.POST)
 	public String updateBD() {
-		for(Country country : getCountries()){
-		countryService.saveOrUpdate(country);
-		}
+//		for(Country country : getCountries()){
+//		countryService.saveOrUpdate(country);
+//		}
 		return "redirect:/";
 	}
 	@RequestMapping(value = "/get", method = RequestMethod.GET)
 	public String getFromBD() {
-		for(Country country : getCountries()){
-		countryService.saveOrUpdate(country);
-		}
+//		for(Country country : getCountries()){
+//		countryService.saveOrUpdate(country);
+//		}
 		return "redirect:/";
 	}
 	
