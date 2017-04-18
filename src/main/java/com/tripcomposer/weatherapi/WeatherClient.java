@@ -12,7 +12,7 @@ import java.net.URLConnection;
 /**
  * Created by ESER on 19.04.2017.
  */
-public class WheatherClient {
+public class WeatherClient {
    // http://api.openweathermap.org/data/2.5/weather?q=Boguslav,ua&appid=dc24d3bd640d9fc35fda1e5cf3811a8c
     public static void main(String[]args){
         System.out.println(getJsonCountries().toString());
